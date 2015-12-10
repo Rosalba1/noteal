@@ -1,0 +1,540 @@
+body{
+    margin: 0px;
+}
+.contenidoPrincipal{
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}
+#cuerpo{
+    width: auto;
+    height: auto;
+}
+
+#contInformacion{
+    width: auto;
+    height: 57px; 
+    background: #efe3c3;
+    border-bottom: 1px solid #e7d6a7;
+}
+#subContenido2{
+    width: auto;
+    height: auto;
+}
+#contTablero1{
+    width: auto;
+    height: auto;
+}
+#menuTablero{
+    width: auto;
+    height: 46px;
+}
+#menuTableroSub{
+    width: 550px;
+    height: 46px;
+}
+#propietario{
+    width: 250px;
+    height: 46px;
+    float: left;
+    display: inline-block;
+}
+#complementos{
+    width: 250px;
+    height: 46px;
+    display: inline-block;
+}
+#complementos ul{
+    padding:0;
+    margin: 0;
+}
+#complementos ul li{
+    text-decoration: none;
+    list-style: none;
+    float:left;
+    margin: 5px;
+}
+#complementos ul li:hover{
+    background-color: #026aa7;
+    border-radius: 3px;
+    margin: 5px;
+}
+
+#complementos ul li a{
+    margin: 10px;
+    display: inline-block;
+    text-decoration: none;
+    font: 13px Helvetica;
+    font-weight: bolder;
+    display: block;
+    color: #FFFFFF;
+}
+#complementos ul li:hover a{
+    color: #FFFFFF;
+}
+#tablero{
+    white-space: nowrap;
+    height: 100%;
+    overflow-y: hidden;
+}
+#notificaciones{
+    width: 335px;
+    height: auto;
+    position: relative;
+    background-color: #edeff0;
+    transform:translate(1000px,-90px);
+}
+#tituloMenu{
+    margin: 0 auto;
+    width: 310px;
+    height: 40px;
+    border-bottom: 1px solid #e2e4e6;
+    background: #edeff0;
+}
+#titMenu{
+    width: 255px;
+    height: 20px;
+    float: left;
+    margin-top: 10px;
+    text-align: center;
+    background: #edeff0;
+    font: 15px Helvetica;
+    font-weight: bolder;
+}
+#iconoCerrar{
+    width: 55px;
+    height: 20px;
+    float: left;
+    margin-top: 10px;
+    background: #edeff0;
+}
+#contNotif{
+    margin: 0 auto;
+    width: 310px;
+    height: 40px;
+    border-bottom: 1px solid #e2e4e6;
+    background: #edeff0;
+}
+#contConf{
+    margin: 0 auto;
+    width: 310px;
+    height: 80px;
+    border-bottom: 1px solid #e2e4e6;
+    background: #edeff0;
+}
+#contActividad{
+    margin: 0 auto;
+    width: 310px;
+    background: #edeff0;
+}
+#inicioContActividad{
+    width: 310px;
+    font: 15px Helvetica;
+    font-weight: bolder;
+}
+#actividades{
+    width: 310px;
+    height: auto;
+    border-bottom: 1px solid #e2e4e6;
+}
+
+/*****Página: index.jsp****/
+.contInicioTrello{
+    width: auto;
+    height: 60%;/*390*/
+    background: #FFFFFF;
+}
+.conInicioTelloSlider{
+    width: auto;
+    height: 200px;
+    background: #F5F5F5;
+}
+
+.logotipo{
+    display: inline-block;
+    width: 100%;
+    height: 80%;
+    margin-top: 20px;
+}
+.contBotonReg{
+    margin: 0 auto;
+    width: 170px;
+    height: 50px;
+}
+.contInicioLogo{
+    margin: 0 auto;
+    width: 50%;
+    height: 100%;
+}
+.contAux{
+    width: auto;
+    height: 100%;
+}
+.conAux2{
+    width: 80%;
+    height: 100%;
+    float: left;
+}
+.btnRegistroGratis{
+    width: 160px;
+    height: 40px;
+    color: #FFFFFF;
+    font: 14px Helvetica;
+    font-weight: bolder;
+    background: linear-gradient(#5aac44 0,#519839 100%);
+    border-radius: 5px;
+    margin: 5px;
+    border: 1px transparent;
+}
+ .btnRegistroGratis:hover{
+    background: linear-gradient(#519839 0,#49852e 100%);
+ }
+ .logeo{
+    width: 20%;
+    height: 50%;
+    background: #bccff9;
+    opacity: 0.9;
+    box-shadow: rgb(150,150,220) 5px 5px 25px 5px;
+    float: left;
+ }
+ .sublogin{
+    margin: 8%;
+    width: 80%;
+    height: 80%; 
+    font: 14px Helvetica;
+    font-weight: bolder;
+    border-radius: 10px 0px 10px 0px;
+    border-top: 1px solid #F5FFFA;
+    border-bottom: 1px solid #F5FFFA;
+ }
+ .sublogin input{
+    margin: 5px;
+    border-radius: 5px;
+    width: 94%;
+    height: 15%;
+ }
+ .btnRegistroLogin input{
+    margin-top: 10%;
+    width: 50%;
+    height: 20%;
+    background: linear-gradient(#5aac44 0,#519839 100%);
+    color: #FFFFFF;
+    font: 13px Helvetica;
+    font-weight: bold;
+    border: 1px transparent;
+ }
+ .btnRegistroLogin input:hover{
+    background: linear-gradient(#519839 0,#49852e 100%);
+ }
+ /*********************/
+  .registro{
+    width: 80%;
+    height: 80%;
+    background: #bccff9;
+    opacity: 0.9;
+    transform:translate(13%,10%);
+    box-shadow: rgb(150,150,220) 5px 5px 25px 5px;
+    float: left;
+ }
+ .subRegistro{
+    margin: 8%;
+    width: 80%;
+    height: 80%; 
+    font: 14px Helvetica;
+    font-weight: bolder;
+    border-radius: 10px 0px 10px 0px;
+    border-top: 1px solid #F5FFFA;
+    border-bottom: 1px solid #F5FFFA;
+ }
+ .subRegistro input{
+    margin: 5px;
+    border-radius: 5px;
+    width: 94%;
+    height: 15%;
+ }
+ .btnRegistrar input{
+    margin-top: 1%;
+    width: 30%;
+    height: 16%;
+    background: linear-gradient(#5aac44 0,#519839 100%);
+    color: #FFFFFF;
+    font: 13px Helvetica;
+    font-weight: bold;
+    border: 1px transparent;
+ }
+ .btnRegistrar input:hover{
+    background: linear-gradient(#519839 0,#49852e 100%);
+ }
+ .logoImagen{
+    float: right;
+    width: 80%;
+    height: 100%;
+    background-image: url(../imagenes/logotipoNote.png);
+    background-repeat: no-repeat;
+    background-size: 85%;
+ }
+ 
+ .error li{
+     text-decoration: none;
+     list-style: none;
+ }
+ 
+ .error{
+     text-decoration: none;
+     list-style: none;
+ }
+ 
+ /**************Portal usuario***************/
+ 
+.contPrinTabEqui{
+    margin-top: 20px;
+    width:95%;
+    float: right;
+}
+.contTablero{
+    margin-top: 20px;
+    width: 100%;
+    float: right;
+}
+.tituloCrearTablero{
+    width:auto;
+    height: 27px; 
+}
+.imgTablero{
+    width:2%;
+    height: 100%;
+    background-image: url('../imagenes/imgUsuario.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+}
+.titTablero{
+   display: block;
+   float: left;
+   font: 16px Helvetica;
+   font-weight: bolder;
+   width: 150px;
+}
+
+.addTableroNew{
+    margin-top: 10px;
+    margin-left: 8px;
+    border-radius: 4px;
+    display: inline-block;
+    width:250px;
+    height:100px;
+    background-color: #028bbc;
+    color: #8c8c8c;
+    float: left;
+    font: 16px Helvetica;
+}
+.addTablero{
+    margin-top: 10px;
+    margin-left: 8px;
+    border-radius: 4px;
+    display: inline-block;
+    width:250px;
+    height:100px;
+    background-color: #e2e4e6;
+    color: #8c8c8c;
+    font: 16px Helvetica;
+    float: left;
+}
+.addTablero:hover{
+    background-color: #d6dadc;
+    cursor: pointer;
+    float: left;
+}
+
+.contInicioTrelloTab{
+    width: auto;
+    height: max-content;
+    height: 100%;/*390*/
+    background: #FFFFFF;
+}
+
+.imgTableroEquipo{
+    width:2%;
+    height: 100%;
+    background-image: url('../imagenes/imgEquipo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+}
+.addTableroNew:hover{
+    float: left;
+    background-color: #026aa1;
+    cursor: pointer;
+}
+
+.NuevoEquipo{
+    margin-top: 10px;
+    margin-left: 8px;
+    display: inline-block;
+    color: #8c8c8c;
+    float: left;
+    font: 16px Helvetica;
+}
+
+.NuevoEquipo:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+/*A partir de esta linea empieza un nuevo disño para el manejo de miembros y de tableros de equipos*/
+
+#cuerpoE{
+    width: auto;
+    min-height: 100%;
+    max-height: max-content;
+    background: #FFFFFF;  
+}
+
+.cabeceraE{
+    top: 90px;
+    border: 1px solid white;
+}
+
+.cabeceraE{
+    top: 30px;
+    width: 85%;
+    height: 150px;
+    margin: 0 auto;
+    background: #FFFFFF;
+}
+
+.contenidoE{
+    width: 85%;
+    margin: 0 auto;
+    background: #FFFFFF;
+}
+
+.cabeceraE li{
+    width: auto;
+    display: inline-block;
+    height: max-content;
+    
+}
+
+.cabeceraE li a{
+    background: #EDEDED;
+    padding: 10px 40px 10px 14px;
+    max-height: 50px;
+    font-size: 14px;
+    font-weight: bolder;
+    width: 100%;
+    text-decoration: none;
+    color: #000;
+}
+.fotografiaEquipo{
+    background-image: url(../imagenes/imEquipo.jpg);
+    background-repeat: no-repeat;
+    background-size: 85%;
+    display: inline-block;
+    height: 90px;
+    width: 90px;
+    vertical-align: top;
+}
+
+.activeA{
+    background: #222;
+}
+
+.fotoUsuario{
+    width:30px;
+    height: 30px;
+    background-image: url('../imagenes/imgUsuario.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.datosMiembro{
+    width: 80%;
+    display: inline-block;
+}
+
+.Buscador{
+    margin: 0px;
+    margin-right: 10px;
+    display: inline;
+    border: solid 1px #d2d2d2;
+    padding: 3px 5px;
+    border-radius: 2em;
+    box-shadow: 0 1px 0px rgba(0,0,0,.1);
+    background: #f1f1f1;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed));
+    background: -moz-linear-gradient(top,  #fff,  #ededed);
+    font: normal 12px/100% Helvetica;
+    width: 460px;
+}
+
+.Buscador input{
+    background: #fff;
+    padding: 6px 6px 6px 8px;
+    width: 384px;
+    border: solid 1px #bcbbbb;
+    outline: none;
+    border-radius: 2em;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.2);
+    float: left;
+}
+
+.Buscador .botonBuscarH{
+    border: solid 1px #494949;
+    font-size: 11px;
+    height: 21px;
+    width: 56px;
+    padding-top: 5px;
+    text-shadow: 0 1px 1px rgba(0,0,0,.6);
+    border-radius: 2em;
+    background: #5f5f5f;
+    background: -webkit-gradient(linear, left top, left bottom, from(#9e9e9e), to(#454545));
+    background: -moz-linear-gradient(top,  #9e9e9e,  #454545);
+    float: right;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+.Buscador .botonBuscar{
+    border: solid 1px #494949;
+    font-size: 11px;
+    height: 21px;
+    width: 56px;
+    padding-top: 5px;
+    text-shadow: 0 1px 1px rgba(0,0,0,.6);
+    border-radius: 2em;
+    background: #5f5f5f;
+    background: -webkit-gradient(linear, left top, left bottom, from(#9e9e9e), to(#454545));
+    background: -moz-linear-gradient(top,  #9e9e9e,  #454545);
+    float: right;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+.contedorOpciones{
+    margin-top: -8px;
+    display: none;
+    width: auto;
+    position: relative;
+    z-index: 6;
+    color: #999;
+}
+.contedorResultado{
+    background-color: #fff;
+    overflow: hidden;
+    color: #999;
+    border-width: 1px;
+    border-style: solid;
+    position: absolute;
+    width: 100%;
+    border-color: #999;
+}
+.opcionResultadoTecla{
+   background: aqua;
+}
