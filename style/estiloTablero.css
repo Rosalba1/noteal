@@ -1,0 +1,141 @@
+.container-list{
+    width: 270px;
+    margin: 0 5px;
+    max-height: 100%;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+.lista{
+    background: #e2e4e6;
+    border-radius: 3px;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    max-height: 100%;
+    position: relative;
+    white-space: normal;
+}
+
+.contenedor-tarjetas{
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin: 0 4px;
+    padding: 0 4px;
+    z-index: 1;
+    min-height: 7px;
+}
+
+.tarjeta{
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 6px;
+    max-width: 300px;
+    min-height: 20px;
+    position: relative;
+    z-index: 0;
+    padding: 6px 8px 4px;
+    font: 14px "Helvetica Neue",Arial,Helvetica,sans-serif;
+}
+
+.tarjeta:hover{
+    background-color: #ccc;
+}
+
+.nueva-tarjeta{
+    border-radius: 0 0 3px 3px;
+    color: #8c8c8c;
+    display: block;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    padding: 8px 10px;
+    position: relative;
+    text-decoration: none;
+    user-select: none;
+}
+
+#cuerpoTa{
+    width: auto;
+    height: auto;
+}
+
+.contInicioTrelloTa{
+    width: auto;
+    height: 80%;/*390*/
+    background: #FFFFFF;
+}
+
+.create-new-container{
+    width: 250px;
+    margin: 0 5px;
+    display: inline-block;
+    vertical-align: top;
+    white-space: nowrap;
+    border-radius: 0 0 3px 3px;
+    color: #8c8c8c;
+    padding: 8px 10px;
+    position: relative;
+    background: #e2e4e6;
+}
+
+.contenedor-listas{
+    display: inline-block;
+}
+
+.header-list{
+    font:14px Helvetica;
+    padding: 5px 5px 5px 8px;
+    cursor: pointer;
+}
+
+.header-list h3{
+    padding: 0px;
+    display: inline-block;
+    margin: 0px;
+    width: 85%;
+    float: left;
+}
+
+.datosTablero{
+}
+
+.ErrorTablero{
+    
+}
+
+.Eliminar{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    color: #FFF;
+}
+
+label, input { display:block; }
+input.text { margin-bottom:12px; width:95%; padding: .4em; }
+fieldset { padding:0; border:0; margin-top:25px; }
+h1 { font-size: 1.2em; margin: .6em 0; }
+.ui-dialog .ui-state-error { padding: .3em; }
+.validateTips { border: 1px solid transparent; padding: 0.3em; }
+#dialog-form, #dialog-form-tarjeta, #dialog-confirm{ font-size: 62.5%; }
+.ui-dialog-titlebar, .ui-dialog-buttonpane{
+    font-family: Verdana,Arial,sans-serif/*{ffDefault}*/;
+    font-size: 12px/*{fsDefault}*/;
+}
