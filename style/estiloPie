@@ -1,0 +1,13 @@
+.pie{
+    width: auto;
+    height: 55px;
+    background: #026aa7;
+}
+.creditos{
+    margin: 0 auto;
+    width: 350px;
+    height: 55px;
+    font: 12px Helvetica;
+    text-align: center;
+    color: #FFFFFF;
+}
